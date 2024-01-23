@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Test Suite">
+   <listeners>
+      <listener class-name="Extent.ExtentTestNGListener"/>
+   </listeners>
+   <test name="validTest">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="allEmpty">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="emptyAmount">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="emptyFrom">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="emptyTo">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="negAmount">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+<test name="withReset">
+      <classes>
+         <class name="Extent.DefaultSuiteTest"/>
+      </classes>
+   </test>
+
+</suite>
